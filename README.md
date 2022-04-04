@@ -10,9 +10,6 @@ JioSaavn is an Indian online music streaming service and a digital distributor o
 ![homePage2](https://user-images.githubusercontent.com/95916859/161554537-612fa247-c5b3-4b84-9193-4e69f2767945.png)
 
 
-# New Release Page
-![NewRelease](https://user-images.githubusercontent.com/95916859/161554609-6a1a6091-a351-4021-a2ee-8ef8cd6727b1.png)
-
 # Language Page
 ![Language](https://user-images.githubusercontent.com/95916859/161554687-5bd82d0d-3670-4e3e-ba0a-75d03c371536.png)
 ![Language1](https://user-images.githubusercontent.com/95916859/161554692-e9b01df7-7eca-4d02-8e4e-dc654384e59a.png)
