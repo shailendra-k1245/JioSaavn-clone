@@ -48,6 +48,7 @@ To run, follow these steps:
 
 # Build With
 - React
+- Redux
 - Node.js
 - Express.js
 - CSS
