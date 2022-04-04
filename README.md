@@ -31,10 +31,18 @@ Want to run in your local Machine? Great!
 
 To run, follow these steps:
 
-- Clone my repository https://github.com/tushar8342/JioSaavn-clone
+- Clone the repository https://github.com/tushar8342/JioSaavn-clone
 - Open the code in your VS code
 - Install all those Packages by using npm install/i
 - Initialise the server npm run dev on terminal
+- For playing the song click on any of the artist/playlist on homepage.
+- User can explore more genre by clicking on browse.
+- There user can either go to songs based on languages such as -: Hindi, Tamil, Telugu, Malyalam etc
+- Or the user can click on top artists and find music according to musicians.
+- User can also search any particular song/artist/playlist on the input box.
+- Type the query on the input box and then hit enter.
+- Songs according to the query are added to the music player.
+- User can click on play icon and also can click on previous or next button to toggle songs.
 
 # Pages Build
 - Home Page
