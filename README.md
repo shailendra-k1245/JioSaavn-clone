@@ -34,7 +34,7 @@ To run, follow these steps:
 - Clone my repository https://github.com/tushar8342/JioSaavn-clone
 - Open the code in your VS code
 - Install all those Packages by using npm install/i
-- Initialise the server npm run start on terminal
+- Initialise the server npm run dev on terminal
 
 # Pages Build
 - Home Page
