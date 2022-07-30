@@ -28,18 +28,16 @@ export const Discover = () => {
 
       <div className="playlist-div">
         {data.map((ele, i) => {
-          if (i >= 36 && i < 50) {
-            return (
-              <div
-                className="playlist-item"
-                key={i}
-                onClick={() => handleClick(ele.title)}
-              >
-                <img src={ele.image} alt="" />
-                <p className="Songs-title">{ele.title}</p>
-              </div>
-            );
-          }
+          return (
+            <div
+              className="playlist-item"
+              key={i}
+              onClick={() => handleClick(ele.title)}
+            >
+              <img src={ele.image} alt="" />
+              <p className="Songs-title">{ele.title.split("(")[0]}</p>
+            </div>
+          );
         })}
       </div>
     </>

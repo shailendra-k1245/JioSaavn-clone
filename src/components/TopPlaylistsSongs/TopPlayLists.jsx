@@ -39,7 +39,7 @@ export const TopPlayLists = () => {
                 onClick={() => handleClick(ele.title)}
               >
                 <img src={ele.image} />
-                <p>{ele.title}</p>
+                <p>{ele.title.split("(")[0]}</p>
                 <small>{ele.subtitle}</small>
               </div>
             );

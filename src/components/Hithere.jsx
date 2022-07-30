@@ -38,7 +38,7 @@ export const HiThere = () => {
                   onClick={() => handleClick(ele.title)}
                 >
                   <img src={ele.image} alt="" />
-                  <p className="Songs-title">{ele.title}</p>
+                  <p className="Songs-title">{ele.title.split("(")[0]}</p>
                   {/* <p>{e.more_info.fan_count}</p> */}
                 </div>
               );

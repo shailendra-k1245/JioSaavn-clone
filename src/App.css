@@ -31,7 +31,7 @@
 
 .starting-div{
   display: flex;
-  /* width: 100%; */
+  /* width: 150%; */
   /* border: 1px solid blue; */
   /* justify-content: space-evenly; */
   /* gap: 1%; */
@@ -48,7 +48,7 @@
 .trending-div{
   display: grid;
   grid-template-columns: repeat(7,9.58%);
-  width: 48%;
+  width: 56%;
   /* border:1px solid red; */
   
 }
@@ -62,6 +62,7 @@
 .Songs-title{
   font-weight: bold;
   color:grey;
+  word-wrap: break-word;
 }
 
 .name{

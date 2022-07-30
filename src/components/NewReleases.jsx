@@ -36,7 +36,7 @@ export const NewReleases = () => {
                 onClick={() => handleClick(el.title)}
               >
                 <img src={el.image} alt="" />
-                <p className="Songs-title">{el.title}</p>
+                <p className="Songs-title">{el.title.split("(")[0]}</p>
               </div>
             );
           }

@@ -33,10 +33,6 @@ export const Navbarlist = () => {
           Charts
         </TextButton>
 
-        <TextButton onClick={() => navigate("/browse/topplaylists")}>
-          Top Playlists
-        </TextButton>
-
         <TextButton>Podcasts</TextButton>
         <TextButton onClick={() => navigate("/browse/topartists")}>
           Top Artists

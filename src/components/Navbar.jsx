@@ -17,8 +17,8 @@ export const Navbar = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    setSong(item!==undefined?item.store:"arijit")
-      getSong(song)
+    setSong(item !== undefined ? item.store : "arijit");
+    getSong(song);
   }, [item]);
 
   const handleKeyDown = (e) => {
@@ -32,7 +32,7 @@ export const Navbar = () => {
       new Track(
         response[0].id,
         response[0].image[0].link,
-        response[0].album.name,
+        response[0].album.name.split("(")[0],
         response[0].artist,
         response[0].downloadUrl[3].link
       ),
@@ -42,7 +42,7 @@ export const Navbar = () => {
       new Track(
         response[1].id,
         response[1].image[0].link,
-        response[1].album.name,
+        response[1].album.name.split("(")[0],
         response[1].artist,
         response[1].downloadUrl[3].link
       ),
@@ -52,7 +52,7 @@ export const Navbar = () => {
       new Track(
         response[2].id,
         response[2].image[0].link,
-        response[2].album.name,
+        response[2].album.name.split("(")[0],
         response[2].artist,
         response[2].downloadUrl[3].link
       ),
